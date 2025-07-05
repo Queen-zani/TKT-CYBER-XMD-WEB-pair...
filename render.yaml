@@ -4,6 +4,6 @@ services:
     env: docker
     plan: free
     branch: main
-    repo: https://github.com/tkttech/tkt-pair-site
+    repo: https://github.com/tkttech/TKT-CYBER-XMD-WEB-pair
     dockerfilePath: ./Dockerfile
     autoDeploy: true
