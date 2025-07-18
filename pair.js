@@ -13,7 +13,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-    async function GIFTED_MD_PAIR_CODE() {
+    async function QUEEN_ZANI_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -77,28 +77,28 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "TKT-CYBER~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hello there TKT-CYBER-XMD User! 👋* 
+                        let desc = `*Hello there QUEEN-ZANI User! 👋* 
 
-> Do not share your session id with your whole 😂.
+> Do not share your session id with your whole 🫠.
 
- *Thanks for using TKT-CYBER-XMD 🇿🇼* 
+ *Thanks for using QUEEN-ZANI* 
 
 > Join WhatsApp Channel :- ⤵️
  
-https://whatsapp.com/channel/0029Vb5vbMM0LKZJi9k4ED1a
+https://whatsapp.com/channel/0029Vb6pI1VBqbrIwyeZr12t
 
 Dont forget to fork the repo ⬇️
 
-https://github.com/tkttech/TKT-CYBER-XMD
 
-> *© Powered BY Tafadzwa TKT 🖤*`; 
+
+> *© Powered BY SHANU RAJAPAKSHA 🖤*`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "Tafadzwa TKT",
+title: "Queen ZANI",
 thumbnailUrl: "https://files.catbox.moe/1cp4yq.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb5vbMM0LKZJi9k4ED1a",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6pI1VBqbrIwyeZr12t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -107,14 +107,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploy TKT-CYBER-XMD*\n\n ◦ *Github:* https://github.com/tkttech/TKT-CYBER-XMD`;
+                            let desc = `*Don't Share with anyone this code use for deploy QUEEM-ZANI*\n\n ◦ *Github:* `;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "TKT-CYBER-XMD",
+title: "QUEEN-ZANI~",
 thumbnailUrl: "https://files.catbox.moe/1cp4yq.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb5vbMM0LKZJi9k4ED1a",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6pI1VBqbrIwyeZr12t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -131,7 +131,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    GIFTED_MD_PAIR_CODE();
+                    QUEEN_ZANI_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -142,7 +142,7 @@ showAdAttribution: true
             }
         }
     }
-   return await GIFTED_MD_PAIR_CODE();
+   return await QUEEN_ZANI_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
